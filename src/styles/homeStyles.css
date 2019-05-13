@@ -1,0 +1,33 @@
+.footerStyle {
+  display: block;
+  position:fixed;
+  bottom:0;
+  left:0;
+}
+.footerMargin {
+  margin-top:-35px;
+}
+.scrollClass {
+  /*overflow-x: auto;*/
+  /*overflow-y: auto;*/
+}
+.dropDownClass {
+  position: relative;
+  padding-top: 150px ;
+
+
+}
+.loginClass {
+  position: relative;
+  float:right;
+  display: inline-block;
+  padding-right: 500px;
+}
+.f-logout{
+  display: table;
+  float: right;
+  margin-top: 10px;
+}
+.noDisplay {
+  display: none;
+}
