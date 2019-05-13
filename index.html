@@ -8,57 +8,19 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-  <script src="https://menu-qa.dynabic.com/Scripts/Dynabic.Menu.min.js" ></script>
-  <link href="https://joomla-aspose.dynabic.com/templates/aspose/css/AsposePtyLtdMenu.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://joomla-aspose.dynabic.com/templates/aspose/css/font-awesome.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./src/styles/homeStyles.css">
   <link href="./src/styles/homeStyles.css"  rel="stylesheet" type="text/css"  >
 </head>
 <body id="body">
-<div id='DynabicMenuInnerDiv'></div>
 
-<div class="wrap">
-  <div class="contents clearfix">
-    <div class="panel clearfix">
-      <span class="header-buttons" style="right: 70px">
-
-      <div class="f-logout" id="logOutId" style="position:relative;right:70px" >
-
-        <a  href="/"  class=" btn btn-primary btn-md " style="padding:2px 09px;color:white" id="homeIdSuper"><i class="fa fa-home d-icon d-icon-home" aria-hidden="true"></i>Home</a>
-        <a  href="" onclick="logOut()" class="btn btn-danger btn-md" style="padding:2px 09px"><i class="fa fa-sign-out d-icon d-icon-sign-out" aria-hidden="true"></i>Sign out</a>
-
-      </div>
-
-      </span>
-    </div>
-  </div>
-</div>
 <div class="container">
   hellow
 </div>
 
 
-<div id='DynabicMenuFooter' class="footerStyle" ></div>
 
-<script type="text/javascript">
-  LoadMenu("Aspose");
-  $("#fcon").attr("href", "../assets/images/faviconAspose.ico");
-  if(localStorage.getItem("userInfo") != null && localStorage.getItem("userInfo") != undefined){
-
-      $("#homeIdSuper").show();
-      $("#logOutId").show();
-  }else {
-      $("#logOutId").show();
-  }
-
- function logOut(){
-     localStorage.clear()
-     window.localStorage.clear();
-     location.reload();
- }
-</script>
 <script src="/dist/bundle.js"></script>
 </body>
 </html>

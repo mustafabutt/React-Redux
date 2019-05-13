@@ -47,14 +47,7 @@ export class LoginComp extends Component{
     render(){
 
       let OidcSettings = {
-        authority: 'https://id-qa.containerize.com',
-        client_id: 'sitemap.aspose.com',
-        redirect_uri: 'https://sitemap-qa.aspose.com/home',
-        post_logout_redirect_uri: 'https://sitemap-qa.aspose.com/home',
-        response_type: 'id_token token',
-        scope: 'openid email roles',
-        filterProtocolClaims: true,
-        loadUserInfo: true
+       
       }
 
         return(
